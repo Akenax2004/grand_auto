@@ -60,7 +60,7 @@ const surSommaire = computed(() => route.name === 'sommaire')
     </header>
 
     <main class="flex-1">
-      <RouterView />
+      <RouterView :key="route.fullPath" />
     </main>
 
     <footer class="mt-16">
