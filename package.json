@@ -6,7 +6,7 @@
   "description": "QCM du Manuel du candidat a l'examen du permis de conduire (Benin, 2011)",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
     "extract": "python scripts/extract.py"
   },
